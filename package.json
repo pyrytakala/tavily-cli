@@ -1,6 +1,6 @@
 {
   "name": "tavily-cli",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "CLI for the Tavily AI search API - search, extract, crawl, and map the web",
   "type": "module",
   "bin": {

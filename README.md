@@ -2,7 +2,7 @@
 
 Unofficial CLI for the [Tavily](https://tavily.com) AI search API. Search, extract, crawl, and map the web. Made with [api2cli.dev](https://api2cli.dev).
 
-> **Note:** This is a community-maintained project and is not officially affiliated with or endorsed by Tavily.
+> **Note:** This is a community-maintained project and is not officially affiliated with or endorsed by Tavily. This tool is a thin API client — it does not redistribute, cache, or sublicense Tavily's services. Users must supply their own API key and comply with [Tavily's Terms of Service](https://www.tavily.com/terms).
 
 ## Install
 
