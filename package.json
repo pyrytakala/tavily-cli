@@ -1,14 +1,26 @@
 {
   "name": "tavily-cli",
   "version": "0.1.0",
-  "description": "CLI for the tavily API",
+  "description": "CLI for the Tavily AI search API - search, extract, crawl, and map the web",
   "type": "module",
   "bin": {
     "tavily-cli": "./dist/index.js"
   },
+  "files": [
+    "dist/index.js",
+    "README.md"
+  ],
   "scripts": {
     "build": "bun build src/index.ts --outfile dist/index.js --target bun",
     "dev": "bun run src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pyrytakala/tavily-cli.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "bun": ">=1.0"
   },
   "dependencies": {
     "commander": "^13.0.0",
